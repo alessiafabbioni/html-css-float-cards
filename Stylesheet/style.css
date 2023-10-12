@@ -6,23 +6,94 @@ body {
 
 /*Container styles*/
 
+.container {
+    margin: 0 10%;
+}
 
 .title-container {
     background-color: aqua;
+    color: magenta;
+    margin: 0 10%;
+
 }
 
 .description-container {
     background-color: blueviolet;
+    font-size: 12px;
+    margin: auto;
+    width: 80%;
+    padding: 30px 20px 10px 10px;
+    text-align: center;
 }
 
 .blocks-container {
-    background-color: chartreuse;
+    margin: 0 10%;
 }
-
 
 /*Text styles*/
 
 .title {
     font-size: 36px;
     font-weight: bold;
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+    text-align: center;
+  }
+  
+
+
+/*Column styles*/
+
+.row::after {
+    content: "";
+    display: table;
+    clear: both;
 }
+
+.col {
+    float: left;
+    width: calc(100%/3);
+
+    /*debug rules*/
+    background-color: beige;
+    border: solid 1px black;
+    min-height: 100px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.column1{
+    background-color: aqua;
+}
+
+.column2 {
+    background-color: chartreuse;
+}
+
+.column3 {
+    background-color: coral;
+}
+
+
