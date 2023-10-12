@@ -6,10 +6,18 @@ body {
 
 /*Container styles*/
 
-.background-container 
 
-.title-container
+.title-container {
+    background-color: aqua;
+    margin: auto;
+}
 
-.description-container
+.description-container {
+    background-color: blueviolet;
+    margin: auto;
+}
 
-.blocks-container
+.blocks-container {
+    background-color: chartreuse;
+    margin: auto;
+}
