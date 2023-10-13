@@ -84,10 +84,10 @@ body {
 }
 
 
-
 .job-title {
     color: white;
     font-weight: bold;
+    padding-top: 10%;
 }
 
 .job-description {
@@ -97,9 +97,12 @@ body {
 
 .job-email {
     color: aqua;
+    padding-bottom: 10%;
 }
 
-
+.text-box {
+    float: right;
+}
 
 
 
